@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Yawza</string>
+    <string name="about_menu">About</string>
+    <string name="help_menu">Help</string>
+    <string name="count_display">0</string>
+    <string name="button_count">Tap</string>
+    <string name="e_news">Entertainment News</string>
+    <string name="tap_game">Tapper Game</string>
+    <string name="freshen">Refresh</string>
+    <string name="timer">20</string>
+</resources>
