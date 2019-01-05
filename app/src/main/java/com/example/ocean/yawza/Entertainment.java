@@ -59,7 +59,7 @@ public class Entertainment extends AppCompatActivity {
                             {
                                 String title = arr.getJSONObject(i).getString("title");
                                 String author = arr.getJSONObject(i).getString("author");
-                                result.add(title+"\n"+author.toUpperCase()+"\n======================\n");
+                                result.add(title+"\nby "+author.toUpperCase()+"\n======================\n");
                             }
                             //Log.d(TAG, result.toString());
                             mTextView.setText(result.toString());
@@ -80,7 +80,7 @@ public class Entertainment extends AppCompatActivity {
                 }, new Response.ErrorListener() {
             @Override
             public void onErrorResponse(VolleyError error) {
-                mTextView.setText("That didn't work!");
+                mTextView.setText("Oops! Something went wrong!\n That's all I know!");
             }
         });
 

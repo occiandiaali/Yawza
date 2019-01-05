@@ -8,4 +8,6 @@
     <string name="tap_game">Tapper Game</string>
     <string name="freshen">Refresh</string>
     <string name="timer">20</string>
+    <string name="hi_score">HiScore: 0</string>
+    <string name="end_game">Time\'s Up!</string>
 </resources>
